@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Yahia Hassan" />
+    <meta
+      name="Description"
+      content="This page contains all things I am learing how to create as I learn HTML."
+    />
+    <title>My first page</title>
+    <link rel="icon" href="/img/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>My Goals for the Year</h1>
+      <nav aria-label="primary-navigation">
+        <ul>
+          <li>
+            <a href="#html">Learning HTML</a>
+          </li>
+          <li><a href="#schedule">Planing My Schedule</a></li>
+          <li><a href="#vacation">Planing My Vacation</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <hr />
+      <article id="html">
+        <h2>I'am ready to learn HTML</h2>
+        <p>This is my first web page.</p>
+        <section>
+          <h3>HTML5</h3>
+          <img
+            src="img/icon.png"
+            alt="HTML5 Logo"
+            title="I am learning HTML."
+            width="300"
+            height="250"
+          />
+          <figure>
+            <figcaption>An Example of HTML5 code</figcaption>
+            <p><code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code></p>
+          </figure>
+        </section>
+        <section>
+          <h3>My Daily Schadule</h3>
+          <p>
+            Let me tell you how: <br />&nbsp;&nbsp;&nbsp;...I learn more about
+            web dev. <br />&nbsp;&nbsp;&nbsp;...I plan out my schedule.
+            <br />&nbsp;&nbsp;&nbsp;..I use resources from
+            <abbr title="Mozila Developer Network">MDN</abbr>.
+          </p>
+        </section>
+      </article>
+
+      <hr />
+
+      <article id="schedule">
+        <h2>Schedule</h2>
+        <section>
+          <h3>My Daily Schadule</h3>
+          <p>Let me tell you how:</p>
+          <ol>
+            <li>I learn more about web dev.</li>
+            <li>I plan out my</li>
+            <li>
+              schedule. I use resources from
+              <abbr title="Mozila Developer Network">MDN</abbr>.
+            </li>
+          </ol>
+          <aside>
+            <details>
+              <summary>
+                Guess the <mark>number of hours</mark> i code per day
+              </summary>
+              <p>
+                I start at <time datetime="08:00">8 am</time> and I write code
+                for <time datetime="PT3H">3 hours</time> every morning.
+              </p>
+            </details>
+          </aside>
+          <br />
+          <table>
+            <caption>
+              My Daily Schedule
+            </caption>
+            <thead>
+              <tr>
+                <th>&nbsp;</th>
+                <th id="time" scope="col">Time</th>
+                <th scope="col">Activity</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th id="morning" scope="row">Morning</th>
+                <td headers="time morning">
+                  <time datetime="08:00">8 am</time>-<time datetime="11:00"
+                    >11 am</time
+                  >
+                </td>
+                <td>write Code</td>
+              </tr>
+              <tr>
+                <th scope="row">Break</th>
+                <td>
+                  <time datetime="11:00">11 am</time>-<time datetime="12:00"
+                    >12 pm</time
+                  >
+                </td>
+                <td>Eat Lunch</td>
+              </tr>
+              <tr>
+                <th scope="row">Afrernoon</th>
+                <td>
+                  <time datetime="12:00">12 pm</time>-<time datetime="17:00"
+                    >5 pm</time
+                  >
+                </td>
+                <td>Study for Other Courses</td>
+              </tr>
+              <tr>
+                <th scope="row">Evening</th>
+                <td rowspan="2">All Other Times</td>
+                <td>Free Time</td>
+              </tr>
+              <tr>
+                <th scope="row">Night</th>
+                <td>Sleep</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="3">
+                  And that's what I do every day, 5 days a week. Just eat,
+                  sleep, code...and recharge!
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </section>
+      </article>
+
+      <hr />
+
+      <!-- br*150 -->
+
+      <article id="vacation">
+        <h2>I Am Also Planning a Vacation</h2>
+        <p>I've been working hard and <em>really need a getaway.</em></p>
+        <h3>
+          I live in Egypt so I want to visit
+          <abbr title="An acient city in Egypt">Luxor</abbr>.
+        </h3>
+        <section>
+          <h3>Places I'd Like to Visit</h3>
+          <ul>
+            <li>
+              <p>I've heard good things about the Caribbean.</p>
+
+              <figure>
+                <img
+                  src="img/caribbean-1400x650.webp"
+                  alt="Caribbean Beach"
+                  title="I want to visit caribbean beach."
+                  width="400"
+                  loading="lazy"
+                />
+                <figcaption>Caribbean Beach Getaway</figcaption>
+              </figure>
+            </li>
+            <li>
+              <p>I have heard good things about going here:</p>
+              <address>
+                Margaritaville Island Reserve Rivier Cancum <br />
+                Bahia Petempich Puerto Morelos, Mexico <br />
+                Colonia Morelos, Mexico 77580 <br />
+              </address>
+              <figure>
+                <img
+                  src="img/vacation.webp"
+                  alt="Cancun Vacation"
+                  title="It's 5 o'clock somewhere!"
+                  loading="lazy"
+                  width="400"
+                  height="300"
+                />
+                <figcaption>A Caribbean Vacation Image</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+        <!-- TODO: Add more places -->
+        <section>
+          <h3>Place I Want to Avoid</h3>
+          <dl>
+            <dt>North Pole</dt>
+            <dd>This is <strong>cold</strong>!</dd>
+            <dt>South Pole</dt>
+            <dd>This is also cold.</dd>
+            <dt>Mountain Tops</dt>
+            <dd>Tese are also cold.</dd>
+          </dl>
+          <h3>My Daily Schadule</h3>
+          <p>Let me tell you what I..</p>
+        </section>
+      </article>
+      <hr />
+      <!-- contact form -->
+      <article id="contact">
+        <h2>Contact me</h2>
+        <p>I'd really like to hear from you!</p>
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Personal Info</legend>
+            <p>
+              <label for="firstName">First Name: </label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="Yahia, eg."
+                autocomplete="on"
+                required
+                autofocus
+              />
+            </p>
+            <p>
+              <label for="lastName">Last Name: </label>
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="Hassan, eg."
+                autocomplete="on"
+                required
+              />
+            </p>
+            <p>
+              <label for="password">Password: </label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Your Secret"
+                required
+              />
+            </p>
+            <p>
+              <label for="phone">Phone: </label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="01123456789"
+                pattern="01[0-9]{9}"
+                required
+              />
+            </p>
+            <p>
+              <label for="decade">Favorite Decade: </label>
+              <input
+                type="number"
+                name="decade"
+                id="decade"
+                min="1950"
+                max="2020"
+                step="10"
+                value="1980"
+                required
+              />
+            </p>
+            <p>
+              <label for="coffee">Favorite Coffee:</label>
+              <select name="coffee" id="coffee" multiple size="5">
+                <optgroup label="Coffee">
+                  <option value="regular coffee">Regular Coffee</option>
+                  <option value="iced coffee">Iced Coffee</option>
+                </optgroup>
+                <optgroup label="Espresso">
+                  <option value="ltte">Latte</option>
+                  <option value="cappuccino">Cappuccino</option>
+                  <option value="cortado">Cortado</option>
+                  <option value="americano">Americano</option>
+                </optgroup>
+                <option value="other">Other</option>
+              </select>
+            </p>
+            <p>
+              <label for="tea">Favorite Tea:</label>
+              <input type="text" name="tea" id="tea" list="tea-list" />
+              <datalist id="tea-list">
+                <option value="Red Tea"></option>
+                <option value="Green Tea"></option>
+                <option value="English Tea"></option>
+                <option value="Bold Tea"></option>
+                <option value="Ice Tea"></option>
+              </datalist>
+            </p>
+          </fieldset>
+        </form>
+      </article>
+    </main>
+
+    <hr />
+
+    <footer>
+      <p>
+        &lt;&lt;&lt; &copy; <a href="about.html">Yahia Hassan</a> &gt;&gt;&gt;
+      </p>
+      <p>
+        <a href="#">Back To the Top</a>
+      </p>
+    </footer>
+  </body>
+</html>
