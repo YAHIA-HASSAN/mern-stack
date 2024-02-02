@@ -1,5 +1,10 @@
 {
-    "prettier.endOfLine": "lf",
-    "prettier.enableDebugLogs": false,
-    "prettier.resolveGlobalModules": false
+  "prettier.endOfLine": "lf",
+  "prettier.enableDebugLogs": false,
+  "prettier.resolveGlobalModules": false,
+  "files.autoSave": "afterDelay",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnType": true
 }
