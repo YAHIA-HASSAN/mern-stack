@@ -1,18 +1,31 @@
 *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     color: greenyellow;
 }
 html{
-    font-size: 20px;
+    font-size: 16px;
+}
+header{
+    width: 80%;
 }
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
 }
 main{
     font-family: monospace;
+    font-size: 1.5rem;
 }
 p{
-    font-size: 15px;
+    font-size: 10px;
     color: purple;
+}
+h1{
+    border: 2px dashed red;
+    width: 60%;
+    padding: 1em;
 }
 h1, h2{
     color: blue;
@@ -24,6 +37,16 @@ p span{
 .gray{
     color: gray;
 }
+.first{
+    font-size: 1rem;
+}
 #second{
     font-style: italic;
+    font-size: 1em;
+}
+#third{
+    font-size: 1.5em;
+}
+.article-5{
+    width: 40ch;
 }
