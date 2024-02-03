@@ -1,4 +1,29 @@
+*{
+    color: greenyellow;
+}
+html{
+    font-size: 20px;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main{
+    font-family: monospace;
+}
 p{
-    font-size: 65px;
+    font-size: 15px;
     color: purple;
+}
+h1, h2{
+    color: blue;
+}
+p span{
+    text-transform: uppercase;
+    background-color: gold;
+}
+.gray{
+    color: gray;
+}
+#second{
+    font-style: italic;
 }
