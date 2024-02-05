@@ -1,6 +1,5 @@
 {
-    "liveServer.settings.CustomBrowser": "chrome",
     "liveServer.settings.fullReload": true,
-    "liveServer.settings.ChromeDebuggingAttachment": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.autoSave": "afterDelay"
 }

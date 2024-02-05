@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: greenyellow;
+    color: lightsalmon;
 }
 html{
     font-size: 16px;
@@ -11,7 +12,7 @@ header{
     width: 80%;
 }
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
 }
 main{
@@ -19,8 +20,11 @@ main{
     font-size: 1.5rem;
 }
 p{
+    font-family: 'Single Day', cursive;
     font-size: 13px;
     color: purple;
+    text-indent: 2em;
+    text-align: justify;
 }
 h1{
     border: 5px double red;
@@ -34,13 +38,13 @@ h1, h2{
 p span{
     text-transform: uppercase;
     background-color: gold;
+    text-decoration: solid line-through;
 }
 .gray{
     color: gray;
 }
 .first{
     font-size: 1rem;
-
 }
 #second{
     font-style: italic;
@@ -49,8 +53,15 @@ p span{
 #third{
     font-size: 1.5em;
 }
+.article-4{
+    letter-spacing: 0.5em;
+    word-spacing: 2em;
+}
 .article-5{
     width: 40ch;
+    line-height: 1.7;
+    font-weight: bolder;
+    font-style: oblique;
 }
 .container{
     border: 5px dashed hsl(176, 69%, 60%);
@@ -72,4 +83,7 @@ p span{
     outline: 2px solid red;
     outline-offset: 2px;
     border-radius: 50%;
+}
+input, button{
+    font: inherit;
 }
