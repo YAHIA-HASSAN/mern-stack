@@ -19,13 +19,14 @@ main{
     font-size: 1.5rem;
 }
 p{
-    font-size: 10px;
+    font-size: 13px;
     color: purple;
 }
 h1{
-    border: 2px dashed red;
+    border: 5px double red;
     width: 60%;
     padding: 1em;
+    margin: 1.5em;
 }
 h1, h2{
     color: blue;
@@ -39,6 +40,7 @@ p span{
 }
 .first{
     font-size: 1rem;
+
 }
 #second{
     font-style: italic;
@@ -49,4 +51,25 @@ p span{
 }
 .article-5{
     width: 40ch;
+}
+.container{
+    border: 5px dashed hsl(176, 69%, 60%);
+    font-size: 1.5rem;
+    padding: 1em 2em 1em 3em;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    outline: 4px solid #5f59d4;
+    outline-offset: 2.8px;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    margin: 2em auto;
+    border: 2px solid black;
+    background-color: gold;
+    outline: 2px solid red;
+    outline-offset: 2px;
+    border-radius: 50%;
 }
