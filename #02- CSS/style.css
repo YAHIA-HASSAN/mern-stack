@@ -99,6 +99,7 @@ a:visited{
 a:hover,a:focus{
     font-size: 2em;
     color: hsl(190, 70%, 40%);
+    background-color: whitesmoke;
 }
 a:active{
     color: crimson;
