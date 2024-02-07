@@ -1,5 +1,13 @@
 {
     "liveServer.settings.fullReload": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "files.autoSave": "afterDelay"
+    "editor.defaultFormatter": null,
+    "files.autoSave": "afterDelay",
+    "liveServer.settings.CustomBrowser": "firefox",
+    "liveServer.settings.wait": 3,
+    "liveServer.settings.useWebExt": true,
+    "workbench.hover.delay": 5,
+    "editor.formatOnSave": true,
+    "files.autoSaveDelay": 50,
+    "testing.autoRun.delay": 5,
+    "files.autoSaveWhenNoErrors": false
 }
