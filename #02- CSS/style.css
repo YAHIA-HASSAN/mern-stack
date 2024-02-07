@@ -104,3 +104,21 @@ a:hover,a:focus{
 a:active{
     color: crimson;
 }
+ol{
+    list-style-type: lower-alpha;
+    padding: 0;    
+}
+ul{
+    list-style-type: square;
+    line-height-step: 1.5;
+    list-style-position: inside;
+    text-align: center;
+    list-style-image: url("./img/checkmark.png");
+    color: red;
+    list-style: square url(./img/checkmark.png) inside;
+}
+ul ::marker{
+    color: red;
+    font-family: fantasy;
+    content: "Only $5 >> ";
+}
