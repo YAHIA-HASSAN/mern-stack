@@ -1,0 +1,43 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(180deg,#fc8efc 10%,#fff 90%);
+    text-align: center;
+    font-weight: bold;
+}
+section{
+    margin-top: 20px;
+}
+
+input{
+    border-top: none;
+    border-left: none;
+    border-bottom: 2px solid black;
+    border-right: none;
+    width: 30px;
+    margin: 10px;
+    text-align: center;
+}
+
+button{
+    background: #fff;
+    border: solid black 2px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+}
+
+label{
+    border-top: none;
+    border-left: none;
+    border-bottom: 2px solid black;
+    border-right: none;
+}
+
+#res-operation{
+    color: darkred;
+}
