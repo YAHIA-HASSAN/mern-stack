@@ -13,6 +13,7 @@ section{
 }
 
 input{
+    background: inherit;
     border-top: none;
     border-left: none;
     border-bottom: 2px solid black;
@@ -23,7 +24,7 @@ input{
 }
 
 button{
-    background: #fff;
+    background: inherit;
     border: solid black 2px;
     font-size: 15px;
     font-weight: bold;
