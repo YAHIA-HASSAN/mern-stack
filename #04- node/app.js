@@ -1,3 +1,5 @@
+require('./script.js')
+
 console.log("Hello, node");
 var x=10;
 var y=20;
